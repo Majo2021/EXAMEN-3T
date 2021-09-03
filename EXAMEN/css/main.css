@@ -1,0 +1,117 @@
+body {
+    padding: 0px;
+    margin: 0px;
+}
+
+.header {
+    width: 100%;
+    height: 130px;
+    justify-content: space-between;
+    background: linear-gradient(to bottom,  #ee9696, rgba(255, 213, 213, 0.918));
+    display: flex;
+}
+
+.b {
+    color: white;
+    font-size: 50px;
+    font-family: 'Monoton', cursive;
+    -webkit-text-stroke: 0.0000001px black;
+    margin-right:680px;
+    margin-top: 30px;
+    margin-left: 10px;
+}
+
+.container {
+    list-style: none;
+    display: flex;
+    margin-right: 30px;
+    margin-left: 200px;
+    margin-top: 35px;
+}
+
+.container li {
+    margin: 15px;
+}
+
+.container a {
+    text-decoration: none;
+    font-size: 25px;
+    color: black;
+    font-family: 'Alegreya Sans', sans-serif;
+}
+
+.container a:hover{
+    transition: 700ms;
+    color: white;
+}
+
+.imagen {
+    max-width: 470px;
+    border: 10px dotted #F08080;
+    margin-left: 900px;
+    margin-top: -1000px;
+}
+
+.content {
+    margin-top: -10px;
+}
+
+.titulo {
+    color: black;
+    -webkit-text-stroke: 1px white;
+    text-align: center;
+    font-family: 'Oleo Script', cursive;
+    padding-top: 255px;
+    font-size: 80px;
+    margin-top: 0px;
+    margin-right: 600px;
+}
+
+.p {
+    color: black;
+    text-align: center;
+    font-family: 'Shadows Into Light', cursive;
+    padding-top: 10px;
+    font-size: 35px;
+    margin-top: 0px;
+    margin-right: 600px;
+}
+
+.fondo1 {
+    width: 100%;
+    height: 600px;
+    background-image: url('../imagenes/pexels-eberhard-grossgasteiger-2088205.jpg');
+    background-position: center;
+    background-size: cover;
+    background-repeat:no-repeat;
+    background-attachment: fixed;
+}
+
+.fondo2 {
+    width: 100%;
+    height: 600px;
+    background-image: url('../imagenes/pexels-maria-tyutina-954599.jpg');
+    background-position: center;
+    background-size: cover;
+    background-repeat:no-repeat;
+    background-attachment: fixed;
+}
+
+.contenedor {
+    height: 40px;
+    background: linear-gradient(to bottom,  #F08080, rgb(180, 252, 252))
+}
+
+.titulo__dos {
+    font-size: 60px;
+    font-family: 'Oleo Script', cursive;
+    color: #0c0c0c;
+    -webkit-text-stroke: 1px rgb(248, 244, 244);
+    margin-left: 25px;
+}
+
+.h3 {
+    font-size: 20px;
+    font-family: 'Oleo Script', cursive;
+    color: #CD5C5C;
+}
